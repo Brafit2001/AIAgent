@@ -1,0 +1,42 @@
+# -- Ficheros de caché de Python ------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -- Entornos virtuales --------------------------------------------------------
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+
+# -- Archivos de distribución y empaquetado ------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.wheel
+
+# -- Archivos generados en ejecuciones -----------------------------------------
+*.log
+*.pid
+*.lock
+*.sqlite3
+
+# -- Configuración y secretos (ej. variables de entorno) -----------------------
+.env
+.env.*
+
+# -- Archivos del sistema operativo -------------------------------------------
+.DS_Store
+Thumbs.db
+
+# -- Configuración del IDE / Editor -------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# -- Otros (añade más según tu proyecto) ---------------------------------------
