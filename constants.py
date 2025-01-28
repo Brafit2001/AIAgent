@@ -6,3 +6,6 @@ PDF_DUPLICATED_PATH = "data/duplicated"
 
 """ VECTORDB """
 VECTORDB_PATH = "VECTORDATA"
+
+""" PINECONE """
+INDEX_NAME = "blockchain-doc-index"
